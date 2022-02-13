@@ -16,7 +16,7 @@ int main(int argc, char* argv[]) {
     int iflag;
     if (argc == 1){
         printenv();
-        exit(0);
+        return 0;
     }
     
 }
